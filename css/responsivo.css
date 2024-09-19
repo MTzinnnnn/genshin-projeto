@@ -1,0 +1,21 @@
+@media (max-width: 750px) {
+    body{
+        font-size: 12px;
+    }
+
+    .genshin{
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .cartao-personagem{
+        max-width: 300px;
+    }
+
+
+    .cartao-personagem .cartao-imagem{
+        width: 200px;
+        height: 200px;
+    }
+}
+

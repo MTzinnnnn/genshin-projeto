@@ -1,0 +1,79 @@
+.listagem{
+    max-width: 200px;
+}
+
+.listagem .cabeca1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    cursor: pointer;
+    min-height: 70px;
+    color: #FFFFFF;
+    transition:  0.15s ease-in-out;
+
+    
+   
+
+
+}
+
+.listagem .cabeca1{
+    border-radius: 20%;
+    width:96%;
+}
+
+
+.cabeca1.A {
+    background-color: #300404;
+    
+    
+  
+}
+.cabeca1.G {
+    background-color: #6699CD;
+  
+}
+
+.cabeca1.K {
+    background-color: #96CAC8;
+    
+  
+}
+
+.cabeca1.N {
+    background-color: #8AA65D;
+  
+}
+
+.cabeca1.R {
+    background-color: #442C6D;
+  
+}
+
+.cabeca1.Y {
+    background-color: #352cb5;
+  
+}
+
+.cabeca1.Z {
+    background-color: #A07F48;
+  
+}
+
+
+.listagem.cabeca1:hover{
+    transform: scale(1.05);
+}
+
+.listagem .cabeca1 span{
+    padding-right: 20px;
+}
+
+
+
+.genshin{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,0.927608543417367) 0%, rgba(6,0,0,1) 100%);
+}

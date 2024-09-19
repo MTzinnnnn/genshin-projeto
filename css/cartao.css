@@ -1,0 +1,185 @@
+.genshin{
+
+    display: flex;
+    gap: 2rem;
+    padding: 2rem 5% 5%;
+}
+
+
+
+.cartao-personagem{
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 80vw;
+}
+
+
+.cartao-personagem .cartao-topo{
+    padding: 40px 10px 0px;
+    max-width: 100%;
+   
+    
+}
+
+.cartao-personagem .nome{
+    margin-bottom: 5px;
+    
+}
+
+.cartao-personagem .elemento{
+    font-size: 12px;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+
+.cartao-personagem .detalhes{
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cartao-personagem .cartao-imagem{
+    max-width: 100%;
+    height: auto;
+      
+    
+     
+}
+
+.cartao-personagem img{
+    max-height: 100%;
+   
+    
+    
+    
+}
+
+.cartao-personagem .cartao-descricao{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    margin-top: -4rem;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: auto;
+    max-width: 100%;
+    
+}
+
+.cartao-personagem .cartao-descricao h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727a;
+    
+}
+
+
+.cartao-personagem .cartao-descricao .sobre{
+    padding: 50px 20px;
+    margin-top: 90px;
+    font-size: 25px;
+   
+}
+
+.cartao-personagem.aberto {
+    display: block;
+}
+
+.elemento-pyro{
+    background-color: #300404;
+}
+
+.elemento-hydro{
+    background-color: #282557;
+}
+
+.elemento-cryo{
+    background-color: #6699CD;
+}
+
+.elemento-geo{
+    background-color: #A07F48;
+}
+
+.elemento-dendro{
+    background-color: #8AA65D;
+}
+
+.elemento-electro{
+    background-color: #442C6D;
+}
+
+.elemento-anemo{
+    background-color: #96CAC8;
+}
+
+
+
+.cartao-personagem .elemento.A{
+    background-color: red;
+
+}
+
+.cartao-personagem .elemento.B{
+    background-color: aqua;
+
+}
+
+.cartao-personagem .elemento.C{
+    background-color: cadetblue;
+
+}
+
+.cartao-personagem .elemento.D{
+    background-color:  chartreuse;
+
+}
+
+.cartao-personagem .elemento.E {
+    background-color: blueviolet;
+
+}
+
+.cartao-personagem .elemento.F {
+    background-color: blue; 
+
+}
+
+
+.cartao-personagem .elemento.G {
+    background-color: yellow;
+
+}
+
+
+.listagem .cabeca1:hover{
+    height: 100px;
+    
+}
+
+.listagem .cabeca1 {
+    transition: 0.5s;
+}
+
+.cartao-imagem img{
+    margin: -160px;
+    
+    
+    
+}
+   
+.cartao-personagem .cartao-imagem img {
+    width: 100%; /* Ajuste esse valor conforme necessário */
+    height: auto; /* Mantém a proporção correta */
+}
+    
+
